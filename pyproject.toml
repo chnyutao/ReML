@@ -1,0 +1,11 @@
+[project]
+name = "feynman"
+version = "0.0.0"
+authors = [
+    {name = "Yutao Chen", email = "chnyutao@outlook.com"},
+]
+dependencies = []
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
