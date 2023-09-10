@@ -1,1 +1,7 @@
+.envrc
 .pdm-python
+.venv/
+.vscode/
+*.egg-info/
+data/*
+!data/.gitkeep

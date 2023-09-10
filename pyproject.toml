@@ -1,11 +1,18 @@
 [project]
-name = "feynman"
+name = "reml"
 version = "0.0.0"
 authors = [
     {name = "Yutao Chen", email = "chnyutao@outlook.com"},
 ]
-dependencies = []
+dependencies = [
+    "torch>=2.0.1",
+    "torchvision>=0.15.2",
+]
 requires-python = ">=3.11"
 readme = "README.md"
 license = {text = "MIT"}
 
+[project.optional-dependencies]
+dev = [
+    "jupyter>=1.0.0",
+]
